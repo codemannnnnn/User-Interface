@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -16,106 +16,176 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+display: block;
 }
 body {
-	line-height: 1;
+line-height: 1;
 }
 ol, ul {
-	list-style: none;
+list-style: none;
 }
 blockquote, q {
-	quotes: none;
+quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+content: '';
+content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+border-collapse: collapse;
+border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-	box-sizing: border-box;
+box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+height: 100%;
+font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+font-family: 'Bangers', cursive;
+letter-spacing: 1px;
+margin-bottom: 15px;
 }
 
 /* Your code starts here! */
 
 .container {
-	width: 50%;
-	margin: auto
+width: 50%;
+margin: auto
 }
 
 nav a {
-	color: red;
-	margin: 0 20px;
+color: grey;
+margin: 0 20px;
+padding: 5px;
+
 }
 
+
+
 nav {
-	display: inline-block;
-	margin: 10px 0 50px;
+display: inline-block;
+margin: 20px 0 50px;
 }
 
 .logo {
-	margin-left: 50px;
+margin-left: 10px;
 }
+
+
+.top {
+display: inline-block;
+width: 80%;
+}
+
+.on {
+	padding-left: 100px;
+}
+
+.demand {
+	padding-left: 30px;
+}
+
 
 .main1 {
-	font-size: 50px;
-	display: inline-block;
-	margin-top: 200px;
-	
-
+display: inline-block;
+width: 10%;
+margin-left: 50px;
+margin-bottom: 100px;
+font-size: 80px;
 }
 
+
+.main2 {
+display: inline-block;
+width: 10%;
+margin-right: x;
+font-size: 30px;
+}
+
+.main2 {
+border: 3px solid grey;
+width: 200px;
+text-align: center;	
+padding: 1px;
+}
 .other {
-	display: inline-block;
-	margin-left: 400px;
-	margin-bottom: 200px;	
-	padding-left: 200px;	
+display: inline-block;
+width: 10%;	
+margin-left: 100px;
+padding-bottom: 100px;
 }
 
-
-/*.features {
-	display: inline-block;
-	width: 35%;
-	margin-right: 300px;	
-}
-*/
-
-
-/*.about {
-	display: inline-block;
-	width: 50%;
-	margin-left: 300px;
-}
-*/
 
 .middle {
+display: inline-block;
+margin-bottom: 50px;
+width: 950px;
+}
+
+.features {
+display: inline-block;
+width: 45%;		
+}
+
+.about {
+display: inline-block;
+width: 45%;
+
+}
+
+.middle-img {
+	padding-bottom: 50px;
+}
+
+.bottom {
 	display: inline-block;
-	margin-right: 200px;
+	padding-bottom: 30px;
+	width: 950px;
+
+}
+
+.services {
+	display: inline-block;
+	width: 30%;
+}
+
+
+.product {
+	display: inline-block;
+	width: 30%
+}
+
+
+.vision {
+	display: inline-block;
+	width: 30%;
+	
+}
+
+
+.contact {
+
+}
+
+
+.copywright {
+	text-align: center;
+	padding-bottom: 100px;
 }
